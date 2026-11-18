@@ -225,6 +225,9 @@ cargo run --release -- eval
 Tests cover PSNR/SSIM, mask dilation, watermark stamping, hole filling,
 determinism, denoising and upscaling. CI runs the same checks on Ubuntu.
 
+Commit messages follow Conventional Commits and are validated by commitlint
+(`.commitlintrc.json`).
+
 ## License and credits
 
 Code: MIT. Bundled font: IBM Plex Sans, SIL OFL 1.1. Sample photos: Unsplash

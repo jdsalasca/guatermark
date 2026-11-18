@@ -56,7 +56,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/canoe-corner-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>15.26</td><td class="good">26.40</td><td>31.20</td><td>0.8994</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>15.26</td><td class="good">22.05</td><td>24.92</td><td>0.7137</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>15.26</td><td class="good">24.08</td><td>29.03</td><td>0.8607</td><td>0.07s</td></tr><tr><td>patch</td><td>grown</td><td>15.26</td><td class="good">22.61</td><td>24.84</td><td>0.6915</td><td>0.07s</td></tr></tbody></table></div><div class="case"><h3>canoe · logo</h3>
+<tr><td>fast</td><td>exact</td><td>15.26</td><td class="good">26.40</td><td>31.20</td><td>0.8994</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>15.26</td><td class="good">22.05</td><td>24.92</td><td>0.7137</td><td>0.05s</td></tr><tr><td>patch</td><td>exact</td><td>15.26</td><td class="good">24.08</td><td>29.03</td><td>0.8607</td><td>0.10s</td></tr><tr><td>patch</td><td>grown</td><td>15.26</td><td class="good">22.61</td><td>24.84</td><td>0.6915</td><td>0.13s</td></tr></tbody></table></div><div class="case"><h3>canoe · logo</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/canoe-logo.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/canoe.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -64,7 +64,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/canoe-logo-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>8.03</td><td class="good">26.54</td><td>31.57</td><td>0.9255</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>8.03</td><td class="good">23.97</td><td>28.03</td><td>0.8733</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>8.03</td><td class="good">23.08</td><td>28.24</td><td>0.8872</td><td>0.08s</td></tr><tr><td>patch</td><td>grown</td><td>8.03</td><td class="good">21.14</td><td>25.00</td><td>0.8211</td><td>0.11s</td></tr></tbody></table></div><div class="case"><h3>canoe · tile</h3>
+<tr><td>fast</td><td>exact</td><td>8.03</td><td class="good">26.54</td><td>31.57</td><td>0.9255</td><td>0.05s</td></tr><tr><td>fast</td><td>grown</td><td>8.03</td><td class="good">23.97</td><td>28.03</td><td>0.8733</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>8.03</td><td class="good">23.08</td><td>28.24</td><td>0.8872</td><td>0.11s</td></tr><tr><td>patch</td><td>grown</td><td>8.03</td><td class="good">21.14</td><td>25.00</td><td>0.8211</td><td>0.14s</td></tr></tbody></table></div><div class="case"><h3>canoe · tile</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/canoe-tile.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/canoe.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -72,7 +72,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/canoe-tile-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>20.23</td><td class="good">26.27</td><td>40.39</td><td>0.9926</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>20.23</td><td class="good">18.47</td><td>30.81</td><td>0.9748</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>20.23</td><td class="good">22.62</td><td>37.12</td><td>0.9886</td><td>0.14s</td></tr><tr><td>patch</td><td>grown</td><td>20.23</td><td class="good">18.64</td><td>30.67</td><td>0.9747</td><td>0.29s</td></tr></tbody></table></div><div class="case"><h3>fjord · corner</h3>
+<tr><td>fast</td><td>exact</td><td>20.23</td><td class="good">26.27</td><td>40.39</td><td>0.9926</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>20.23</td><td class="good">18.47</td><td>30.81</td><td>0.9748</td><td>0.06s</td></tr><tr><td>patch</td><td>exact</td><td>20.23</td><td class="good">22.62</td><td>37.12</td><td>0.9886</td><td>0.19s</td></tr><tr><td>patch</td><td>grown</td><td>20.23</td><td class="good">18.64</td><td>30.67</td><td>0.9747</td><td>0.45s</td></tr></tbody></table></div><div class="case"><h3>fjord · corner</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/fjord-corner.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/fjord.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -80,7 +80,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/fjord-corner-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>12.72</td><td class="good">25.94</td><td>30.69</td><td>0.9471</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>12.72</td><td class="good">21.47</td><td>24.12</td><td>0.8740</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>12.72</td><td class="good">23.75</td><td>28.66</td><td>0.9205</td><td>0.08s</td></tr><tr><td>patch</td><td>grown</td><td>12.72</td><td class="good">21.96</td><td>23.55</td><td>0.8320</td><td>0.13s</td></tr></tbody></table></div><div class="case"><h3>fjord · logo</h3>
+<tr><td>fast</td><td>exact</td><td>12.72</td><td class="good">25.94</td><td>30.69</td><td>0.9471</td><td>0.05s</td></tr><tr><td>fast</td><td>grown</td><td>12.72</td><td class="good">21.47</td><td>24.12</td><td>0.8740</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>12.72</td><td class="good">23.75</td><td>28.66</td><td>0.9205</td><td>0.08s</td></tr><tr><td>patch</td><td>grown</td><td>12.72</td><td class="good">21.96</td><td>23.55</td><td>0.8320</td><td>0.10s</td></tr></tbody></table></div><div class="case"><h3>fjord · logo</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/fjord-logo.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/fjord.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -88,7 +88,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/fjord-logo-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>10.20</td><td class="good">20.73</td><td>25.90</td><td>0.8777</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>10.20</td><td class="good">18.57</td><td>22.48</td><td>0.7716</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>10.20</td><td class="good">18.23</td><td>23.44</td><td>0.8272</td><td>0.09s</td></tr><tr><td>patch</td><td>grown</td><td>10.20</td><td class="good">16.71</td><td>20.40</td><td>0.7168</td><td>0.13s</td></tr></tbody></table></div><div class="case"><h3>fjord · tile</h3>
+<tr><td>fast</td><td>exact</td><td>10.20</td><td class="good">20.73</td><td>25.90</td><td>0.8777</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>10.20</td><td class="good">18.57</td><td>22.48</td><td>0.7716</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>10.20</td><td class="good">18.23</td><td>23.44</td><td>0.8272</td><td>0.12s</td></tr><tr><td>patch</td><td>grown</td><td>10.20</td><td class="good">16.71</td><td>20.40</td><td>0.7168</td><td>0.14s</td></tr></tbody></table></div><div class="case"><h3>fjord · tile</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/fjord-tile.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/fjord.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -96,7 +96,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/fjord-tile-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>22.17</td><td class="good">20.93</td><td>35.34</td><td>0.9894</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>22.17</td><td class="good">17.20</td><td>29.27</td><td>0.9683</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>22.17</td><td class="good">18.46</td><td>33.03</td><td>0.9828</td><td>0.12s</td></tr><tr><td>patch</td><td>grown</td><td>22.17</td><td class="good">16.07</td><td>27.87</td><td>0.9617</td><td>0.34s</td></tr></tbody></table></div><div class="case"><h3>lioness · corner</h3>
+<tr><td>fast</td><td>exact</td><td>22.17</td><td class="good">20.93</td><td>35.34</td><td>0.9894</td><td>0.10s</td></tr><tr><td>fast</td><td>grown</td><td>22.17</td><td class="good">17.20</td><td>29.27</td><td>0.9683</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>22.17</td><td class="good">18.46</td><td>33.03</td><td>0.9828</td><td>0.13s</td></tr><tr><td>patch</td><td>grown</td><td>22.17</td><td class="good">16.07</td><td>27.87</td><td>0.9617</td><td>0.42s</td></tr></tbody></table></div><div class="case"><h3>lioness · corner</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/lioness-corner.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/lioness.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -104,7 +104,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/lioness-corner-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>11.64</td><td class="good">39.93</td><td>41.40</td><td>0.9550</td><td>0.07s</td></tr><tr><td>fast</td><td>grown</td><td>11.64</td><td class="good">35.88</td><td>37.10</td><td>0.9580</td><td>0.07s</td></tr><tr><td>patch</td><td>exact</td><td>11.64</td><td class="good">39.70</td><td>41.30</td><td>0.9518</td><td>0.15s</td></tr><tr><td>patch</td><td>grown</td><td>11.64</td><td class="good">37.86</td><td>37.75</td><td>0.9563</td><td>0.14s</td></tr></tbody></table></div><div class="case"><h3>lioness · logo</h3>
+<tr><td>fast</td><td>exact</td><td>11.64</td><td class="good">39.93</td><td>41.40</td><td>0.9550</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>11.64</td><td class="good">35.88</td><td>37.10</td><td>0.9580</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>11.64</td><td class="good">39.70</td><td>41.30</td><td>0.9518</td><td>0.09s</td></tr><tr><td>patch</td><td>grown</td><td>11.64</td><td class="good">37.86</td><td>37.75</td><td>0.9563</td><td>0.14s</td></tr></tbody></table></div><div class="case"><h3>lioness · logo</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/lioness-logo.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/lioness.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -112,7 +112,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/lioness-logo-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>9.36</td><td class="good">23.64</td><td>28.79</td><td>0.8537</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>9.36</td><td class="good">21.24</td><td>25.09</td><td>0.7319</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>9.36</td><td class="good">21.66</td><td>26.86</td><td>0.8204</td><td>0.11s</td></tr><tr><td>patch</td><td>grown</td><td>9.36</td><td class="good">20.30</td><td>23.82</td><td>0.6859</td><td>0.19s</td></tr></tbody></table></div><div class="case"><h3>lioness · tile</h3>
+<tr><td>fast</td><td>exact</td><td>9.36</td><td class="good">23.64</td><td>28.79</td><td>0.8537</td><td>0.02s</td></tr><tr><td>fast</td><td>grown</td><td>9.36</td><td class="good">21.24</td><td>25.09</td><td>0.7319</td><td>0.02s</td></tr><tr><td>patch</td><td>exact</td><td>9.36</td><td class="good">21.66</td><td>26.86</td><td>0.8204</td><td>0.15s</td></tr><tr><td>patch</td><td>grown</td><td>9.36</td><td class="good">20.30</td><td>23.82</td><td>0.6859</td><td>0.20s</td></tr></tbody></table></div><div class="case"><h3>lioness · tile</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/lioness-tile.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/lioness.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -120,7 +120,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/lioness-tile-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>18.46</td><td class="good">27.41</td><td>41.58</td><td>0.9898</td><td>0.05s</td></tr><tr><td>fast</td><td>grown</td><td>18.46</td><td class="good">22.84</td><td>34.86</td><td>0.9729</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>18.46</td><td class="good">25.48</td><td>39.86</td><td>0.9868</td><td>0.15s</td></tr><tr><td>patch</td><td>grown</td><td>18.46</td><td class="good">22.58</td><td>34.32</td><td>0.9695</td><td>0.38s</td></tr></tbody></table></div><div class="case"><h3>portrait · corner</h3>
+<tr><td>fast</td><td>exact</td><td>18.46</td><td class="good">27.41</td><td>41.58</td><td>0.9898</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>18.46</td><td class="good">22.84</td><td>34.86</td><td>0.9729</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>18.46</td><td class="good">25.48</td><td>39.86</td><td>0.9868</td><td>0.14s</td></tr><tr><td>patch</td><td>grown</td><td>18.46</td><td class="good">22.58</td><td>34.32</td><td>0.9695</td><td>0.29s</td></tr></tbody></table></div><div class="case"><h3>portrait · corner</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/portrait-corner.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/portrait.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -128,7 +128,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/portrait-corner-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>15.82</td><td class="good">30.14</td><td>34.75</td><td>0.9416</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>15.82</td><td class="good">24.19</td><td>27.12</td><td>0.8083</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>15.82</td><td class="good">26.98</td><td>31.86</td><td>0.9000</td><td>0.07s</td></tr><tr><td>patch</td><td>grown</td><td>15.82</td><td class="good">25.56</td><td>27.58</td><td>0.7831</td><td>0.10s</td></tr></tbody></table></div><div class="case"><h3>portrait · logo</h3>
+<tr><td>fast</td><td>exact</td><td>15.82</td><td class="good">30.14</td><td>34.75</td><td>0.9416</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>15.82</td><td class="good">24.19</td><td>27.12</td><td>0.8083</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>15.82</td><td class="good">26.98</td><td>31.86</td><td>0.9000</td><td>0.11s</td></tr><tr><td>patch</td><td>grown</td><td>15.82</td><td class="good">25.56</td><td>27.58</td><td>0.7831</td><td>0.09s</td></tr></tbody></table></div><div class="case"><h3>portrait · logo</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/portrait-logo.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/portrait.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -136,7 +136,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/portrait-logo-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>12.95</td><td class="good">24.72</td><td>29.85</td><td>0.9186</td><td>0.02s</td></tr><tr><td>fast</td><td>grown</td><td>12.95</td><td class="good">22.19</td><td>26.28</td><td>0.8551</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>12.95</td><td class="good">22.36</td><td>27.55</td><td>0.8949</td><td>0.10s</td></tr><tr><td>patch</td><td>grown</td><td>12.95</td><td class="good">20.49</td><td>24.21</td><td>0.8280</td><td>0.18s</td></tr></tbody></table></div><div class="case"><h3>portrait · tile</h3>
+<tr><td>fast</td><td>exact</td><td>12.95</td><td class="good">24.72</td><td>29.85</td><td>0.9186</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>12.95</td><td class="good">22.19</td><td>26.28</td><td>0.8551</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>12.95</td><td class="good">22.36</td><td>27.55</td><td>0.8949</td><td>0.11s</td></tr><tr><td>patch</td><td>grown</td><td>12.95</td><td class="good">20.49</td><td>24.21</td><td>0.8280</td><td>0.17s</td></tr></tbody></table></div><div class="case"><h3>portrait · tile</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/portrait-tile.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/portrait.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -144,7 +144,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/portrait-tile-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>21.42</td><td class="good">27.61</td><td>41.88</td><td>0.9934</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>21.42</td><td class="good">22.77</td><td>35.07</td><td>0.9826</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>21.42</td><td class="good">25.18</td><td>39.68</td><td>0.9910</td><td>0.15s</td></tr><tr><td>patch</td><td>grown</td><td>21.42</td><td class="good">22.11</td><td>34.13</td><td>0.9807</td><td>0.27s</td></tr></tbody></table></div><div class="case"><h3>pug · corner</h3>
+<tr><td>fast</td><td>exact</td><td>21.42</td><td class="good">27.61</td><td>41.88</td><td>0.9934</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>21.42</td><td class="good">22.77</td><td>35.07</td><td>0.9826</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>21.42</td><td class="good">25.18</td><td>39.68</td><td>0.9910</td><td>0.12s</td></tr><tr><td>patch</td><td>grown</td><td>21.42</td><td class="good">22.11</td><td>34.13</td><td>0.9807</td><td>0.34s</td></tr></tbody></table></div><div class="case"><h3>pug · corner</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/pug-corner.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/pug.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -152,7 +152,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/pug-corner-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>13.96</td><td class="good">23.65</td><td>28.65</td><td>0.8961</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>13.96</td><td class="good">17.91</td><td>20.85</td><td>0.5937</td><td>0.02s</td></tr><tr><td>patch</td><td>exact</td><td>13.96</td><td class="good">20.92</td><td>25.99</td><td>0.8267</td><td>0.07s</td></tr><tr><td>patch</td><td>grown</td><td>13.96</td><td class="good">18.13</td><td>20.72</td><td>0.5471</td><td>0.08s</td></tr></tbody></table></div><div class="case"><h3>pug · logo</h3>
+<tr><td>fast</td><td>exact</td><td>13.96</td><td class="good">23.65</td><td>28.65</td><td>0.8961</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>13.96</td><td class="good">17.91</td><td>20.85</td><td>0.5937</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>13.96</td><td class="good">20.92</td><td>25.99</td><td>0.8267</td><td>0.06s</td></tr><tr><td>patch</td><td>grown</td><td>13.96</td><td class="good">18.13</td><td>20.72</td><td>0.5471</td><td>0.09s</td></tr></tbody></table></div><div class="case"><h3>pug · logo</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/pug-logo.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/pug.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -160,7 +160,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/pug-logo-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>12.12</td><td class="good">21.69</td><td>26.90</td><td>0.8639</td><td>0.02s</td></tr><tr><td>fast</td><td>grown</td><td>12.12</td><td class="good">18.29</td><td>22.37</td><td>0.7196</td><td>0.02s</td></tr><tr><td>patch</td><td>exact</td><td>12.12</td><td class="good">20.04</td><td>25.26</td><td>0.8191</td><td>0.09s</td></tr><tr><td>patch</td><td>grown</td><td>12.12</td><td class="good">17.48</td><td>21.40</td><td>0.6665</td><td>0.13s</td></tr></tbody></table></div><div class="case"><h3>pug · tile</h3>
+<tr><td>fast</td><td>exact</td><td>12.12</td><td class="good">21.69</td><td>26.90</td><td>0.8639</td><td>0.05s</td></tr><tr><td>fast</td><td>grown</td><td>12.12</td><td class="good">18.29</td><td>22.37</td><td>0.7196</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>12.12</td><td class="good">20.04</td><td>25.26</td><td>0.8191</td><td>0.17s</td></tr><tr><td>patch</td><td>grown</td><td>12.12</td><td class="good">17.48</td><td>21.40</td><td>0.6665</td><td>0.29s</td></tr></tbody></table></div><div class="case"><h3>pug · tile</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/pug-tile.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/pug.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -168,7 +168,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/pug-tile-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>21.39</td><td class="good">24.50</td><td>38.74</td><td>0.9900</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>21.39</td><td class="good">18.77</td><td>30.88</td><td>0.9633</td><td>0.04s</td></tr><tr><td>patch</td><td>exact</td><td>21.39</td><td class="good">21.72</td><td>36.21</td><td>0.9833</td><td>0.13s</td></tr><tr><td>patch</td><td>grown</td><td>21.39</td><td class="good">17.97</td><td>29.95</td><td>0.9556</td><td>0.23s</td></tr></tbody></table></div><div class="case"><h3>yosemite · corner</h3>
+<tr><td>fast</td><td>exact</td><td>21.39</td><td class="good">24.50</td><td>38.74</td><td>0.9900</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>21.39</td><td class="good">18.77</td><td>30.88</td><td>0.9633</td><td>0.06s</td></tr><tr><td>patch</td><td>exact</td><td>21.39</td><td class="good">21.72</td><td>36.21</td><td>0.9833</td><td>0.19s</td></tr><tr><td>patch</td><td>grown</td><td>21.39</td><td class="good">17.97</td><td>29.95</td><td>0.9556</td><td>0.27s</td></tr></tbody></table></div><div class="case"><h3>yosemite · corner</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/yosemite-corner.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/yosemite.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -176,7 +176,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/yosemite-corner-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>12.95</td><td class="good">21.22</td><td>26.25</td><td>0.8466</td><td>0.02s</td></tr><tr><td>fast</td><td>grown</td><td>12.95</td><td class="good">17.16</td><td>19.87</td><td>0.5237</td><td>0.02s</td></tr><tr><td>patch</td><td>exact</td><td>12.95</td><td class="good">18.95</td><td>24.03</td><td>0.7818</td><td>0.05s</td></tr><tr><td>patch</td><td>grown</td><td>12.95</td><td class="good">16.83</td><td>19.05</td><td>0.4562</td><td>0.07s</td></tr></tbody></table></div><div class="case"><h3>yosemite · logo</h3>
+<tr><td>fast</td><td>exact</td><td>12.95</td><td class="good">21.22</td><td>26.25</td><td>0.8466</td><td>0.04s</td></tr><tr><td>fast</td><td>grown</td><td>12.95</td><td class="good">17.16</td><td>19.87</td><td>0.5237</td><td>0.06s</td></tr><tr><td>patch</td><td>exact</td><td>12.95</td><td class="good">18.95</td><td>24.03</td><td>0.7818</td><td>0.09s</td></tr><tr><td>patch</td><td>grown</td><td>12.95</td><td class="good">16.83</td><td>19.05</td><td>0.4562</td><td>0.11s</td></tr></tbody></table></div><div class="case"><h3>yosemite · logo</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/yosemite-logo.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/yosemite.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -184,7 +184,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/yosemite-logo-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>10.27</td><td class="good">19.94</td><td>25.12</td><td>0.8018</td><td>0.02s</td></tr><tr><td>fast</td><td>grown</td><td>10.27</td><td class="good">18.57</td><td>22.11</td><td>0.6321</td><td>0.02s</td></tr><tr><td>patch</td><td>exact</td><td>10.27</td><td class="good">17.44</td><td>22.66</td><td>0.7498</td><td>0.11s</td></tr><tr><td>patch</td><td>grown</td><td>10.27</td><td class="good">16.25</td><td>19.59</td><td>0.5671</td><td>0.15s</td></tr></tbody></table></div><div class="case"><h3>yosemite · tile</h3>
+<tr><td>fast</td><td>exact</td><td>10.27</td><td class="good">19.94</td><td>25.12</td><td>0.8018</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>10.27</td><td class="good">18.57</td><td>22.11</td><td>0.6321</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>10.27</td><td class="good">17.44</td><td>22.66</td><td>0.7498</td><td>0.09s</td></tr><tr><td>patch</td><td>grown</td><td>10.27</td><td class="good">16.25</td><td>19.59</td><td>0.5671</td><td>0.13s</td></tr></tbody></table></div><div class="case"><h3>yosemite · tile</h3>
 <div class="shots">
 <figure><img loading="lazy" src="../input-examples/yosemite-tile.jpg" alt="watermarked"><figcaption>watermarked (input)</figcaption></figure>
 <figure><img loading="lazy" src="clean/yosemite.jpg" alt="clean"><figcaption>clean (ground truth)</figcaption></figure>
@@ -192,7 +192,7 @@ as <code>--grow 2</code> would. ROI PSNR/SSIM are measured around the watermark,
 <figure><img loading="lazy" src="out/yosemite-tile-patch-exact.jpg" alt="patch exact"><figcaption>patch + exact mask</figcaption></figure>
 </div>
 <table><thead><tr><th>algorithm</th><th>mask</th><th>PSNR on mark before</th><th>after</th><th>ROI PSNR</th><th>SSIM ROI</th><th>time</th></tr></thead><tbody>
-<tr><td>fast</td><td>exact</td><td>20.09</td><td class="good">22.14</td><td>36.37</td><td>0.9845</td><td>0.02s</td></tr><tr><td>fast</td><td>grown</td><td>20.09</td><td class="good">18.64</td><td>30.55</td><td>0.9537</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>20.09</td><td class="good">19.36</td><td>33.85</td><td>0.9759</td><td>0.11s</td></tr><tr><td>patch</td><td>grown</td><td>20.09</td><td class="good">16.92</td><td>28.62</td><td>0.9425</td><td>0.22s</td></tr></tbody></table></div><h2>Quality enhancement</h2>
+<tr><td>fast</td><td>exact</td><td>20.09</td><td class="good">22.14</td><td>36.37</td><td>0.9845</td><td>0.03s</td></tr><tr><td>fast</td><td>grown</td><td>20.09</td><td class="good">18.64</td><td>30.55</td><td>0.9537</td><td>0.03s</td></tr><tr><td>patch</td><td>exact</td><td>20.09</td><td class="good">19.36</td><td>33.85</td><td>0.9759</td><td>0.26s</td></tr><tr><td>patch</td><td>grown</td><td>20.09</td><td class="good">16.92</td><td>28.62</td><td>0.9425</td><td>0.29s</td></tr></tbody></table></div><h2>Quality enhancement</h2>
 <p>The clean photo is downscaled 2x and given Gaussian noise (σ=5), then restored to the original size.
 The baseline is a plain Lanczos3 upscale; <b>guatermark</b> adds bilateral denoise and luma unsharp masking.</p>
 <div class="case"><h3>canoe</h3>
@@ -203,7 +203,7 @@ The baseline is a plain Lanczos3 upscale; <b>guatermark</b> adds bilateral denoi
 <figure><img loading="lazy" src="out/canoe-enh-lanczos3.jpg" alt="lanczos"><figcaption>Lanczos3 33.14 dB</figcaption></figure>
 </div>
 <div class="shots" style="grid-template-columns:repeat(2,1fr)">
-<figure><img loading="lazy" src="out/canoe-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 34.28 dB · SSIM 0.9388 · 0.02s</figcaption></figure>
+<figure><img loading="lazy" src="out/canoe-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 34.28 dB · SSIM 0.9388 · 0.03s</figcaption></figure>
 <figure><img loading="lazy" src="out/canoe-enh-zoom.jpg" alt="detail"><figcaption>detail: guatermark</figcaption></figure>
 </div></div>
 <div class="case"><h3>fjord</h3>
@@ -225,7 +225,7 @@ The baseline is a plain Lanczos3 upscale; <b>guatermark</b> adds bilateral denoi
 <figure><img loading="lazy" src="out/lioness-enh-lanczos3.jpg" alt="lanczos"><figcaption>Lanczos3 30.73 dB</figcaption></figure>
 </div>
 <div class="shots" style="grid-template-columns:repeat(2,1fr)">
-<figure><img loading="lazy" src="out/lioness-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 31.33 dB · SSIM 0.8858 · 0.06s</figcaption></figure>
+<figure><img loading="lazy" src="out/lioness-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 31.33 dB · SSIM 0.8858 · 0.04s</figcaption></figure>
 <figure><img loading="lazy" src="out/lioness-enh-zoom.jpg" alt="detail"><figcaption>detail: guatermark</figcaption></figure>
 </div></div>
 <div class="case"><h3>portrait</h3>
@@ -236,7 +236,7 @@ The baseline is a plain Lanczos3 upscale; <b>guatermark</b> adds bilateral denoi
 <figure><img loading="lazy" src="out/portrait-enh-lanczos3.jpg" alt="lanczos"><figcaption>Lanczos3 32.07 dB</figcaption></figure>
 </div>
 <div class="shots" style="grid-template-columns:repeat(2,1fr)">
-<figure><img loading="lazy" src="out/portrait-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 33.59 dB · SSIM 0.9355 · 0.04s</figcaption></figure>
+<figure><img loading="lazy" src="out/portrait-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 33.59 dB · SSIM 0.9355 · 0.03s</figcaption></figure>
 <figure><img loading="lazy" src="out/portrait-enh-zoom.jpg" alt="detail"><figcaption>detail: guatermark</figcaption></figure>
 </div></div>
 <div class="case"><h3>pug</h3>
@@ -247,7 +247,7 @@ The baseline is a plain Lanczos3 upscale; <b>guatermark</b> adds bilateral denoi
 <figure><img loading="lazy" src="out/pug-enh-lanczos3.jpg" alt="lanczos"><figcaption>Lanczos3 30.88 dB</figcaption></figure>
 </div>
 <div class="shots" style="grid-template-columns:repeat(2,1fr)">
-<figure><img loading="lazy" src="out/pug-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 30.62 dB · SSIM 0.8827 · 0.02s</figcaption></figure>
+<figure><img loading="lazy" src="out/pug-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 30.62 dB · SSIM 0.8827 · 0.04s</figcaption></figure>
 <figure><img loading="lazy" src="out/pug-enh-zoom.jpg" alt="detail"><figcaption>detail: guatermark</figcaption></figure>
 </div></div>
 <div class="case"><h3>yosemite</h3>
@@ -258,7 +258,7 @@ The baseline is a plain Lanczos3 upscale; <b>guatermark</b> adds bilateral denoi
 <figure><img loading="lazy" src="out/yosemite-enh-lanczos3.jpg" alt="lanczos"><figcaption>Lanczos3 25.33 dB</figcaption></figure>
 </div>
 <div class="shots" style="grid-template-columns:repeat(2,1fr)">
-<figure><img loading="lazy" src="out/yosemite-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 25.03 dB · SSIM 0.6986 · 0.03s</figcaption></figure>
+<figure><img loading="lazy" src="out/yosemite-enh-guatermark.jpg" alt="guatermark"><figcaption>guatermark 25.03 dB · SSIM 0.6986 · 0.04s</figcaption></figure>
 <figure><img loading="lazy" src="out/yosemite-enh-zoom.jpg" alt="detail"><figcaption>detail: guatermark</figcaption></figure>
 </div></div>
 <h2>How to reproduce</h2>

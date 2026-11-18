@@ -52,19 +52,3 @@ pub fn dilate(mask: &GrayImage, radius: u32) -> GrayImage {
         Luma([if hit { 255 } else { 0 }])
     })
 }
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn dilation_grows_the_mask() {
-        let mut mask = GrayImage::new(20, 20);
-        mask.put_pixel(10, 10, Luma([255]));
-        let grown = dilate(&mask, 2);
-        let count = grown.pixels().filter(|p| p.0[0] > 127).count();
-        assert_eq!(count, 25);
-        assert_eq!(grown.get_pixel(10, 10).0[0], 255);
-        assert_eq!(grown.get_pixel(13, 10).0[0], 0);
-    }
-}

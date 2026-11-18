@@ -16,7 +16,7 @@
       "psnr_masked_after": 26.39754981278253,
       "ssim_roi_before": 0.625653769508461,
       "ssim_roi_after": 0.8994178722859573,
-      "seconds": 0.0384196
+      "seconds": 0.0381891
     },
     {
       "image": "canoe",
@@ -34,7 +34,7 @@
       "psnr_masked_after": 22.053826269648166,
       "ssim_roi_before": 0.625653769508461,
       "ssim_roi_after": 0.7137164561870549,
-      "seconds": 0.032851
+      "seconds": 0.053479
     },
     {
       "image": "canoe",
@@ -52,7 +52,7 @@
       "psnr_masked_after": 24.082026098337515,
       "ssim_roi_before": 0.625653769508461,
       "ssim_roi_after": 0.8606594796737407,
-      "seconds": 0.0683247
+      "seconds": 0.09853
     },
     {
       "image": "canoe",
@@ -70,7 +70,7 @@
       "psnr_masked_after": 22.611852908747657,
       "ssim_roi_before": 0.625653769508461,
       "ssim_roi_after": 0.6915300361545171,
-      "seconds": 0.0691574
+      "seconds": 0.1280834
     },
     {
       "image": "canoe",
@@ -88,7 +88,7 @@
       "psnr_masked_after": 26.26988332634046,
       "ssim_roi_before": 0.9719643194443143,
       "ssim_roi_after": 0.9926027083347259,
-      "seconds": 0.0376733
+      "seconds": 0.0386536
     },
     {
       "image": "canoe",
@@ -106,7 +106,7 @@
       "psnr_masked_after": 18.47279458760334,
       "ssim_roi_before": 0.9719643194443143,
       "ssim_roi_after": 0.9747803637373369,
-      "seconds": 0.038636
+      "seconds": 0.0587811
     },
     {
       "image": "canoe",
@@ -124,7 +124,7 @@
       "psnr_masked_after": 22.62434198009029,
       "ssim_roi_before": 0.9719643194443143,
       "ssim_roi_after": 0.988585354477086,
-      "seconds": 0.1396004
+      "seconds": 0.1891906
     },
     {
       "image": "canoe",
@@ -142,7 +142,7 @@
       "psnr_masked_after": 18.6381043095524,
       "ssim_roi_before": 0.9719643194443143,
       "ssim_roi_after": 0.9747279324064,
-      "seconds": 0.2932414
+      "seconds": 0.4470935
     },
     {
       "image": "canoe",
@@ -160,7 +160,7 @@
       "psnr_masked_after": 26.538418318527697,
       "ssim_roi_before": 0.483048713828584,
       "ssim_roi_after": 0.9254710276948521,
-      "seconds": 0.0261675
+      "seconds": 0.0476144
     },
     {
       "image": "canoe",
@@ -178,7 +178,7 @@
       "psnr_masked_after": 23.974984100705385,
       "ssim_roi_before": 0.483048713828584,
       "ssim_roi_after": 0.8732616969010747,
-      "seconds": 0.0281825
+      "seconds": 0.0368269
     },
     {
       "image": "canoe",
@@ -196,7 +196,7 @@
       "psnr_masked_after": 23.082737316494875,
       "ssim_roi_before": 0.483048713828584,
       "ssim_roi_after": 0.8871878274232576,
-      "seconds": 0.084382
+      "seconds": 0.1112292
     },
     {
       "image": "canoe",
@@ -214,7 +214,7 @@
       "psnr_masked_after": 21.137919647478135,
       "ssim_roi_before": 0.483048713828584,
       "ssim_roi_after": 0.8211128798228184,
-      "seconds": 0.1146292
+      "seconds": 0.1426598
     },
     {
       "image": "fjord",
@@ -232,7 +232,7 @@
       "psnr_masked_after": 25.93722582486884,
       "ssim_roi_before": 0.3802849996568899,
       "ssim_roi_after": 0.9470750903583097,
-      "seconds": 0.0375427
+      "seconds": 0.0485126
     },
     {
       "image": "fjord",
@@ -250,7 +250,7 @@
       "psnr_masked_after": 21.469837501888097,
       "ssim_roi_before": 0.3802849996568899,
       "ssim_roi_after": 0.8739592973292257,
-      "seconds": 0.0313842
+      "seconds": 0.0354804
     },
     {
       "image": "fjord",
@@ -268,7 +268,7 @@
       "psnr_masked_after": 23.752834212695646,
       "ssim_roi_before": 0.3802849996568899,
       "ssim_roi_after": 0.9204526529929986,
-      "seconds": 0.082607
+      "seconds": 0.0835839
     },
     {
       "image": "fjord",
@@ -286,7 +286,7 @@
       "psnr_masked_after": 21.96280081322911,
       "ssim_roi_before": 0.3802849996568899,
       "ssim_roi_after": 0.8319796749550816,
-      "seconds": 0.1317515
+      "seconds": 0.0972113
     },
     {
       "image": "fjord",
@@ -304,7 +304,7 @@
       "psnr_masked_after": 20.932561234146966,
       "ssim_roi_before": 0.978634611423804,
       "ssim_roi_after": 0.9893629397898759,
-      "seconds": 0.029161
+      "seconds": 0.095408
     },
     {
       "image": "fjord",
@@ -322,7 +322,7 @@
       "psnr_masked_after": 17.204719481585737,
       "ssim_roi_before": 0.978634611423804,
       "ssim_roi_after": 0.9682611364785977,
-      "seconds": 0.0312114
+      "seconds": 0.0321611
     },
     {
       "image": "fjord",
@@ -340,7 +340,7 @@
       "psnr_masked_after": 18.463012266221924,
       "ssim_roi_before": 0.978634611423804,
       "ssim_roi_after": 0.9827888037112948,
-      "seconds": 0.1216479
+      "seconds": 0.1312372
     },
     {
       "image": "fjord",
@@ -358,7 +358,7 @@
       "psnr_masked_after": 16.07137230209262,
       "ssim_roi_before": 0.978634611423804,
       "ssim_roi_after": 0.9617345014240066,
-      "seconds": 0.3418923
+      "seconds": 0.4220396
     },
     {
       "image": "fjord",
@@ -376,7 +376,7 @@
       "psnr_masked_after": 20.72615219831973,
       "ssim_roi_before": 0.6184551537801793,
       "ssim_roi_after": 0.8776650540631752,
-      "seconds": 0.0337376
+      "seconds": 0.0252375
     },
     {
       "image": "fjord",
@@ -394,7 +394,7 @@
       "psnr_masked_after": 18.569310929433613,
       "ssim_roi_before": 0.6184551537801793,
       "ssim_roi_after": 0.7715702470095225,
-      "seconds": 0.0251562
+      "seconds": 0.0299722
     },
     {
       "image": "fjord",
@@ -412,7 +412,7 @@
       "psnr_masked_after": 18.22753755834692,
       "ssim_roi_before": 0.6184551537801793,
       "ssim_roi_after": 0.8272138442117745,
-      "seconds": 0.0926672
+      "seconds": 0.1208376
     },
     {
       "image": "fjord",
@@ -430,7 +430,7 @@
       "psnr_masked_after": 16.714377962735057,
       "ssim_roi_before": 0.6184551537801793,
       "ssim_roi_after": 0.7168159822928722,
-      "seconds": 0.1309089
+      "seconds": 0.1413581
     },
     {
       "image": "lioness",
@@ -448,7 +448,7 @@
       "psnr_masked_after": 39.92549095885365,
       "ssim_roi_before": 0.30890187550914755,
       "ssim_roi_after": 0.9550298003089998,
-      "seconds": 0.0650547
+      "seconds": 0.0251982
     },
     {
       "image": "lioness",
@@ -466,7 +466,7 @@
       "psnr_masked_after": 35.88241222441736,
       "ssim_roi_before": 0.30890187550914755,
       "ssim_roi_after": 0.9579893469488053,
-      "seconds": 0.068396
+      "seconds": 0.025858
     },
     {
       "image": "lioness",
@@ -484,7 +484,7 @@
       "psnr_masked_after": 39.69826746351258,
       "ssim_roi_before": 0.30890187550914755,
       "ssim_roi_after": 0.9517586338259634,
-      "seconds": 0.1513527
+      "seconds": 0.0932871
     },
     {
       "image": "lioness",
@@ -502,7 +502,7 @@
       "psnr_masked_after": 37.855790137525126,
       "ssim_roi_before": 0.30890187550914755,
       "ssim_roi_after": 0.9562827568720534,
-      "seconds": 0.1419389
+      "seconds": 0.1403308
     },
     {
       "image": "lioness",
@@ -520,7 +520,7 @@
       "psnr_masked_after": 27.414612507580358,
       "ssim_roi_before": 0.9601926277771948,
       "ssim_roi_after": 0.9898438613366112,
-      "seconds": 0.0479876
+      "seconds": 0.0301009
     },
     {
       "image": "lioness",
@@ -538,7 +538,7 @@
       "psnr_masked_after": 22.840222255518977,
       "ssim_roi_before": 0.9601926277771948,
       "ssim_roi_after": 0.9728818284359108,
-      "seconds": 0.0424187
+      "seconds": 0.0306999
     },
     {
       "image": "lioness",
@@ -556,7 +556,7 @@
       "psnr_masked_after": 25.478952156975506,
       "ssim_roi_before": 0.9601926277771948,
       "ssim_roi_after": 0.986800614228345,
-      "seconds": 0.1532832
+      "seconds": 0.140406
     },
     {
       "image": "lioness",
@@ -574,7 +574,7 @@
       "psnr_masked_after": 22.576276375316503,
       "ssim_roi_before": 0.9601926277771948,
       "ssim_roi_after": 0.9695086924594677,
-      "seconds": 0.3791425
+      "seconds": 0.2872299
     },
     {
       "image": "lioness",
@@ -592,7 +592,7 @@
       "psnr_masked_after": 23.63920861527355,
       "ssim_roi_before": 0.5980377954024484,
       "ssim_roi_after": 0.8537461043311275,
-      "seconds": 0.0364304
+      "seconds": 0.0240371
     },
     {
       "image": "lioness",
@@ -610,7 +610,7 @@
       "psnr_masked_after": 21.2383460822787,
       "ssim_roi_before": 0.5980377954024484,
       "ssim_roi_after": 0.7318596783126425,
-      "seconds": 0.0369676
+      "seconds": 0.0242906
     },
     {
       "image": "lioness",
@@ -628,7 +628,7 @@
       "psnr_masked_after": 21.66307397599997,
       "ssim_roi_before": 0.5980377954024484,
       "ssim_roi_after": 0.8203916554036838,
-      "seconds": 0.1132306
+      "seconds": 0.1482875
     },
     {
       "image": "lioness",
@@ -646,7 +646,7 @@
       "psnr_masked_after": 20.299388533981926,
       "ssim_roi_before": 0.5980377954024484,
       "ssim_roi_after": 0.6858704641089609,
-      "seconds": 0.1912197
+      "seconds": 0.1990799
     },
     {
       "image": "portrait",
@@ -664,7 +664,7 @@
       "psnr_masked_after": 30.13945291174531,
       "ssim_roi_before": 0.5266823662473787,
       "ssim_roi_after": 0.9416323356183205,
-      "seconds": 0.0449409
+      "seconds": 0.0253961
     },
     {
       "image": "portrait",
@@ -682,7 +682,7 @@
       "psnr_masked_after": 24.188202288852956,
       "ssim_roi_before": 0.5266823662473787,
       "ssim_roi_after": 0.8083107705424275,
-      "seconds": 0.0275008
+      "seconds": 0.0284173
     },
     {
       "image": "portrait",
@@ -700,7 +700,7 @@
       "psnr_masked_after": 26.978020509226237,
       "ssim_roi_before": 0.5266823662473787,
       "ssim_roi_after": 0.9000172904923903,
-      "seconds": 0.0745689
+      "seconds": 0.1058706
     },
     {
       "image": "portrait",
@@ -718,7 +718,7 @@
       "psnr_masked_after": 25.56393615500219,
       "ssim_roi_before": 0.5266823662473787,
       "ssim_roi_after": 0.7831298331430463,
-      "seconds": 0.1013956
+      "seconds": 0.0924566
     },
     {
       "image": "portrait",
@@ -736,7 +736,7 @@
       "psnr_masked_after": 27.60596374484559,
       "ssim_roi_before": 0.9742937519375995,
       "ssim_roi_after": 0.9933629672691667,
-      "seconds": 0.0321964
+      "seconds": 0.0283289
     },
     {
       "image": "portrait",
@@ -754,7 +754,7 @@
       "psnr_masked_after": 22.770604095191388,
       "ssim_roi_before": 0.9742937519375995,
       "ssim_roi_after": 0.9825853352031285,
-      "seconds": 0.0428539
+      "seconds": 0.0330909
     },
     {
       "image": "portrait",
@@ -772,7 +772,7 @@
       "psnr_masked_after": 25.183375272855933,
       "ssim_roi_before": 0.9742937519375995,
       "ssim_roi_after": 0.9909893010319262,
-      "seconds": 0.1450368
+      "seconds": 0.1167076
     },
     {
       "image": "portrait",
@@ -790,7 +790,7 @@
       "psnr_masked_after": 22.114627782611052,
       "ssim_roi_before": 0.9742937519375995,
       "ssim_roi_after": 0.9807223554906278,
-      "seconds": 0.2726976
+      "seconds": 0.3379276
     },
     {
       "image": "portrait",
@@ -808,7 +808,7 @@
       "psnr_masked_after": 24.72418594988502,
       "ssim_roi_before": 0.7066718299796667,
       "ssim_roi_after": 0.918632481965958,
-      "seconds": 0.0247887
+      "seconds": 0.0312235
     },
     {
       "image": "portrait",
@@ -826,7 +826,7 @@
       "psnr_masked_after": 22.194196646433333,
       "ssim_roi_before": 0.7066718299796667,
       "ssim_roi_after": 0.8550535545409365,
-      "seconds": 0.0304317
+      "seconds": 0.0310444
     },
     {
       "image": "portrait",
@@ -844,7 +844,7 @@
       "psnr_masked_after": 22.35788789307392,
       "ssim_roi_before": 0.7066718299796667,
       "ssim_roi_after": 0.8948675608152491,
-      "seconds": 0.1001792
+      "seconds": 0.1084171
     },
     {
       "image": "portrait",
@@ -862,7 +862,7 @@
       "psnr_masked_after": 20.485438662922647,
       "ssim_roi_before": 0.7066718299796667,
       "ssim_roi_after": 0.8280241923196084,
-      "seconds": 0.1797618
+      "seconds": 0.1672324
     },
     {
       "image": "pug",
@@ -880,7 +880,7 @@
       "psnr_masked_after": 23.652042862113632,
       "ssim_roi_before": 0.6369415973734214,
       "ssim_roi_after": 0.8960587126894787,
-      "seconds": 0.0285939
+      "seconds": 0.0263811
     },
     {
       "image": "pug",
@@ -898,7 +898,7 @@
       "psnr_masked_after": 17.913407621319703,
       "ssim_roi_before": 0.6369415973734214,
       "ssim_roi_after": 0.5937049126545124,
-      "seconds": 0.0237334
+      "seconds": 0.0271835
     },
     {
       "image": "pug",
@@ -916,7 +916,7 @@
       "psnr_masked_after": 20.921087563959908,
       "ssim_roi_before": 0.6369415973734214,
       "ssim_roi_after": 0.8267068503287741,
-      "seconds": 0.0733921
+      "seconds": 0.0638193
     },
     {
       "image": "pug",
@@ -934,7 +934,7 @@
       "psnr_masked_after": 18.127188920780398,
       "ssim_roi_before": 0.6369415973734214,
       "ssim_roi_after": 0.54708386110278,
-      "seconds": 0.083332
+      "seconds": 0.0857085
     },
     {
       "image": "pug",
@@ -952,7 +952,7 @@
       "psnr_masked_after": 24.50022573593179,
       "ssim_roi_before": 0.9783942231565147,
       "ssim_roi_after": 0.9900187487492484,
-      "seconds": 0.0276304
+      "seconds": 0.0396892
     },
     {
       "image": "pug",
@@ -970,7 +970,7 @@
       "psnr_masked_after": 18.765348511082625,
       "ssim_roi_before": 0.9783942231565147,
       "ssim_roi_after": 0.9633002482155586,
-      "seconds": 0.0365422
+      "seconds": 0.0570214
     },
     {
       "image": "pug",
@@ -988,7 +988,7 @@
       "psnr_masked_after": 21.719214637514614,
       "ssim_roi_before": 0.9783942231565147,
       "ssim_roi_after": 0.9832523671396299,
-      "seconds": 0.1346521
+      "seconds": 0.1893038
     },
     {
       "image": "pug",
@@ -1006,7 +1006,7 @@
       "psnr_masked_after": 17.96882093383626,
       "ssim_roi_before": 0.9783942231565147,
       "ssim_roi_after": 0.9555709218759287,
-      "seconds": 0.2310133
+      "seconds": 0.2707951
     },
     {
       "image": "pug",
@@ -1024,7 +1024,7 @@
       "psnr_masked_after": 21.69147311554785,
       "ssim_roi_before": 0.7023947587104186,
       "ssim_roi_after": 0.8638721102434072,
-      "seconds": 0.0203624
+      "seconds": 0.0506967
     },
     {
       "image": "pug",
@@ -1042,7 +1042,7 @@
       "psnr_masked_after": 18.28712822639538,
       "ssim_roi_before": 0.7023947587104186,
       "ssim_roi_after": 0.7196065735585979,
-      "seconds": 0.0244956
+      "seconds": 0.0405828
     },
     {
       "image": "pug",
@@ -1060,7 +1060,7 @@
       "psnr_masked_after": 20.03955138660539,
       "ssim_roi_before": 0.7023947587104186,
       "ssim_roi_after": 0.8190859643938682,
-      "seconds": 0.0889219
+      "seconds": 0.1736094
     },
     {
       "image": "pug",
@@ -1078,7 +1078,7 @@
       "psnr_masked_after": 17.482266953524302,
       "ssim_roi_before": 0.7023947587104186,
       "ssim_roi_after": 0.666490986554572,
-      "seconds": 0.1257361
+      "seconds": 0.286829
     },
     {
       "image": "yosemite",
@@ -1096,7 +1096,7 @@
       "psnr_masked_after": 21.215941339953016,
       "ssim_roi_before": 0.6907334463459768,
       "ssim_roi_after": 0.8465903788976878,
-      "seconds": 0.0233927
+      "seconds": 0.0373759
     },
     {
       "image": "yosemite",
@@ -1114,7 +1114,7 @@
       "psnr_masked_after": 17.164137990202594,
       "ssim_roi_before": 0.6907334463459768,
       "ssim_roi_after": 0.5236952309876036,
-      "seconds": 0.0223939
+      "seconds": 0.0555205
     },
     {
       "image": "yosemite",
@@ -1132,7 +1132,7 @@
       "psnr_masked_after": 18.95486486477935,
       "ssim_roi_before": 0.6907334463459768,
       "ssim_roi_after": 0.7817816922359698,
-      "seconds": 0.0547851
+      "seconds": 0.0900034
     },
     {
       "image": "yosemite",
@@ -1150,7 +1150,7 @@
       "psnr_masked_after": 16.83110088029202,
       "ssim_roi_before": 0.6907334463459768,
       "ssim_roi_after": 0.4562199635319457,
-      "seconds": 0.0687447
+      "seconds": 0.1145829
     },
     {
       "image": "yosemite",
@@ -1168,7 +1168,7 @@
       "psnr_masked_after": 22.136862873688724,
       "ssim_roi_before": 0.9803976113952908,
       "ssim_roi_after": 0.9844672237987785,
-      "seconds": 0.0234906
+      "seconds": 0.034152
     },
     {
       "image": "yosemite",
@@ -1186,7 +1186,7 @@
       "psnr_masked_after": 18.642462712977142,
       "ssim_roi_before": 0.9803976113952908,
       "ssim_roi_after": 0.9537115244638251,
-      "seconds": 0.0270574
+      "seconds": 0.0345344
     },
     {
       "image": "yosemite",
@@ -1204,7 +1204,7 @@
       "psnr_masked_after": 19.359526542430327,
       "ssim_roi_before": 0.9803976113952908,
       "ssim_roi_after": 0.9759464754499118,
-      "seconds": 0.1060394
+      "seconds": 0.2559146
     },
     {
       "image": "yosemite",
@@ -1222,7 +1222,7 @@
       "psnr_masked_after": 16.922994332631212,
       "ssim_roi_before": 0.9803976113952908,
       "ssim_roi_after": 0.9424697284638661,
-      "seconds": 0.2183877
+      "seconds": 0.2911406
     },
     {
       "image": "yosemite",
@@ -1240,7 +1240,7 @@
       "psnr_masked_after": 19.938967624330292,
       "ssim_roi_before": 0.7235600296094709,
       "ssim_roi_after": 0.8017650382304877,
-      "seconds": 0.0224963
+      "seconds": 0.0275742
     },
     {
       "image": "yosemite",
@@ -1258,7 +1258,7 @@
       "psnr_masked_after": 18.573926105544047,
       "ssim_roi_before": 0.7235600296094709,
       "ssim_roi_after": 0.6321048475132328,
-      "seconds": 0.0225235
+      "seconds": 0.0275279
     },
     {
       "image": "yosemite",
@@ -1276,7 +1276,7 @@
       "psnr_masked_after": 17.442407633138814,
       "ssim_roi_before": 0.7235600296094709,
       "ssim_roi_after": 0.7498416871726927,
-      "seconds": 0.1078762
+      "seconds": 0.091485
     },
     {
       "image": "yosemite",
@@ -1294,7 +1294,7 @@
       "psnr_masked_after": 16.251046749205837,
       "ssim_roi_before": 0.7235600296094709,
       "ssim_roi_after": 0.5670670940819186,
-      "seconds": 0.1504342
+      "seconds": 0.1277345
     }
   ],
   "enhancement": [
@@ -1306,7 +1306,7 @@
       "output": "out/canoe-enh-nearest.jpg",
       "psnr": 31.0865752979324,
       "ssim": 0.835181174475391,
-      "seconds": 0.0011033
+      "seconds": 0.0014494
     },
     {
       "image": "canoe",
@@ -1316,7 +1316,7 @@
       "output": "out/canoe-enh-lanczos3.jpg",
       "psnr": 33.13526056901183,
       "ssim": 0.8729637237886549,
-      "seconds": 0.0191157
+      "seconds": 0.0179558
     },
     {
       "image": "canoe",
@@ -1326,7 +1326,7 @@
       "output": "out/canoe-enh-guatermark.jpg",
       "psnr": 34.28222808013846,
       "ssim": 0.9387788996694317,
-      "seconds": 0.0246531
+      "seconds": 0.0273292
     },
     {
       "image": "fjord",
@@ -1336,7 +1336,7 @@
       "output": "out/fjord-enh-nearest.jpg",
       "psnr": 24.878941735505563,
       "ssim": 0.7812930211215708,
-      "seconds": 0.001057
+      "seconds": 0.0012813
     },
     {
       "image": "fjord",
@@ -1346,7 +1346,7 @@
       "output": "out/fjord-enh-lanczos3.jpg",
       "psnr": 25.69536447032968,
       "ssim": 0.8098099046126271,
-      "seconds": 0.0118525
+      "seconds": 0.0143435
     },
     {
       "image": "fjord",
@@ -1356,7 +1356,7 @@
       "output": "out/fjord-enh-guatermark.jpg",
       "psnr": 25.613072452158594,
       "ssim": 0.8222235917637142,
-      "seconds": 0.0232293
+      "seconds": 0.0246568
     },
     {
       "image": "lioness",
@@ -1366,7 +1366,7 @@
       "output": "out/lioness-enh-nearest.jpg",
       "psnr": 29.866962920090074,
       "ssim": 0.811085657442993,
-      "seconds": 0.0012426
+      "seconds": 0.0015123
     },
     {
       "image": "lioness",
@@ -1376,7 +1376,7 @@
       "output": "out/lioness-enh-lanczos3.jpg",
       "psnr": 30.730939596836432,
       "ssim": 0.8444701188083766,
-      "seconds": 0.0278759
+      "seconds": 0.0168307
     },
     {
       "image": "lioness",
@@ -1386,7 +1386,7 @@
       "output": "out/lioness-enh-guatermark.jpg",
       "psnr": 31.32678514566132,
       "ssim": 0.8858415834980536,
-      "seconds": 0.0595996
+      "seconds": 0.0353911
     },
     {
       "image": "portrait",
@@ -1396,7 +1396,7 @@
       "output": "out/portrait-enh-nearest.jpg",
       "psnr": 31.019924447349855,
       "ssim": 0.8247330645456488,
-      "seconds": 0.0012287
+      "seconds": 0.0013798
     },
     {
       "image": "portrait",
@@ -1406,7 +1406,7 @@
       "output": "out/portrait-enh-lanczos3.jpg",
       "psnr": 32.072935340392156,
       "ssim": 0.8583067415870387,
-      "seconds": 0.0229707
+      "seconds": 0.0310947
     },
     {
       "image": "portrait",
@@ -1416,7 +1416,7 @@
       "output": "out/portrait-enh-guatermark.jpg",
       "psnr": 33.58751468442004,
       "ssim": 0.9355293529642508,
-      "seconds": 0.0352329
+      "seconds": 0.0297513
     },
     {
       "image": "pug",
@@ -1426,7 +1426,7 @@
       "output": "out/pug-enh-nearest.jpg",
       "psnr": 28.760510776327717,
       "ssim": 0.8443645832625627,
-      "seconds": 0.0011455
+      "seconds": 0.0016384
     },
     {
       "image": "pug",
@@ -1436,7 +1436,7 @@
       "output": "out/pug-enh-lanczos3.jpg",
       "psnr": 30.876464668662614,
       "ssim": 0.8933279419245327,
-      "seconds": 0.0125442
+      "seconds": 0.0221041
     },
     {
       "image": "pug",
@@ -1446,7 +1446,7 @@
       "output": "out/pug-enh-guatermark.jpg",
       "psnr": 30.619552572365436,
       "ssim": 0.8826752691616778,
-      "seconds": 0.0220164
+      "seconds": 0.0420206
     },
     {
       "image": "yosemite",
@@ -1456,7 +1456,7 @@
       "output": "out/yosemite-enh-nearest.jpg",
       "psnr": 24.65955152026257,
       "ssim": 0.7361354251784701,
-      "seconds": 0.0011434
+      "seconds": 0.0024785
     },
     {
       "image": "yosemite",
@@ -1466,7 +1466,7 @@
       "output": "out/yosemite-enh-lanczos3.jpg",
       "psnr": 25.333154876254543,
       "ssim": 0.75927609946045,
-      "seconds": 0.0135664
+      "seconds": 0.025433
     },
     {
       "image": "yosemite",
@@ -1476,7 +1476,7 @@
       "output": "out/yosemite-enh-guatermark.jpg",
       "psnr": 25.027659885489413,
       "ssim": 0.6986494026286972,
-      "seconds": 0.0250936
+      "seconds": 0.0373714
     }
   ],
   "summary": {
@@ -1488,7 +1488,7 @@
         "psnr": 33.07539360909616,
         "ssim": 0.9259230253314539,
         "gain_db": 9.817519397574845,
-        "seconds": 0.03333703888888889
+        "seconds": 0.03743161111111111
       },
       {
         "label": "patch + exact mask",
@@ -1496,7 +1496,7 @@
         "psnr": 30.812449781233674,
         "ssim": 0.8971293363893642,
         "gain_db": 7.554575569712357,
-        "seconds": 0.10514152222222223
+        "seconds": 0.12842888333333333
       },
       {
         "label": "fast + grown mask",
@@ -1504,7 +1504,7 @@
         "psnr": 27.32004097963157,
         "ssim": 0.8261307249455553,
         "gain_db": 4.062166768110255,
-        "seconds": 0.03292977777777777
+        "seconds": 0.03680401666666667
       },
       {
         "label": "patch + grown mask",
@@ -1512,7 +1512,7 @@
         "psnr": 26.303156814301982,
         "ssim": 0.7964634365033594,
         "gain_db": 3.0452826027806674,
-        "seconds": 0.17918804444444442
+        "seconds": 0.20997186111111107
       }
     ],
     "enhancement": [
@@ -1522,7 +1522,7 @@
         "psnr": 28.378744449578026,
         "ssim": 0.805465487671106,
         "gain_db": 0.0,
-        "seconds": 0.0011534166666666665
+        "seconds": 0.0016232833333333335
       },
       {
         "label": "lanczos3",
@@ -1530,7 +1530,7 @@
         "psnr": 29.64068658691454,
         "ssim": 0.8396924216969467,
         "gain_db": 0.0,
-        "seconds": 0.017987566666666666
+        "seconds": 0.021293633333333336
       },
       {
         "label": "guatermark",
@@ -1538,7 +1538,7 @@
         "psnr": 30.076135470038878,
         "ssim": 0.8606163499476375,
         "gain_db": 0.0,
-        "seconds": 0.031637483333333334
+        "seconds": 0.0327534
       }
     ]
   }
