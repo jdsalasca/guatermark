@@ -1,0 +1,26 @@
+[package]
+name = "guatermark"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+license = "MIT"
+description = "Watermark removal and image quality enhancement, 100% Rust"
+repository = "https://github.com/jdsalasca/guatermark"
+readme = "README.md"
+keywords = ["watermark", "inpainting", "image", "cli", "patchmatch"]
+categories = ["multimedia::images", "command-line-utilities"]
+
+[dependencies]
+ab_glyph = "0.2"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+fastrand = "2"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "webp"] }
+rayon = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
